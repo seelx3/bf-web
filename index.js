@@ -1,4 +1,4 @@
 function exec(){
-    console.log('exec');
+    hello();
     document.getElementById("executionResult").value = "hello world";
 }
