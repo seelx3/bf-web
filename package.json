@@ -2,11 +2,14 @@
   "name": "bf-web",
   "version": "0.0.0",
   "type": "module",
-  "main": "main.js",
+  "main": "index.js",
   "repository": "https://github.com/seelx3/bf-web.git",
   "author": "seelx3 <seelx3@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "typescript": "^5.4.3"
+  },
+  "scripts": {
+    "build": "tsc --target es2022 --outFile dist/main.js src/main.ts "
   }
 }
