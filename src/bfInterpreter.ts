@@ -1,4 +1,4 @@
-function bfInterpreter(bfCode: string) {
+export function bfInterpreter(bfCode: string) {
   const evaluator = new BfEvaluator(bfCode);
 
   return evaluator.evaluate();
